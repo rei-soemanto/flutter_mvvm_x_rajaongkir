@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "skills": {
+    "dart-run-static-analysis": {
+      "source": "flutter/agent-plugins",
+      "sourceType": "github",
+      "skillPath": "skills/dart-run-static-analysis/SKILL.md",
+      "computedHash": "7b143ff93bfb118ce9d72fca56cef4b38d75bfe9044367101db09cf32e6815ad"
+    },
+    "flutter-apply-architecture-best-practices": {
+      "source": "flutter/agent-plugins",
+      "sourceType": "github",
+      "skillPath": "skills/flutter-apply-architecture-best-practices/SKILL.md",
+      "computedHash": "baeb208b1cab90c559677626dbd101b96ba93f803cbed85122abdadeb3283a8b"
+    },
+    "flutter-architecture": {
+      "source": "madteacher/mad-agents-skills",
+      "sourceType": "github",
+      "skillPath": "flutter-architecture/SKILL.md",
+      "computedHash": "5d4081d771331dd81dd88f20c98b11f2844ef9a4feb3c6ee012a276b31c8f157"
+    },
+    "flutter-build-responsive-layout": {
+      "source": "flutter/agent-plugins",
+      "sourceType": "github",
+      "skillPath": "skills/flutter-build-responsive-layout/SKILL.md",
+      "computedHash": "6d74a9504c4e355c4c62f6fcb6c6dc0df67b56dd6616bea199e4e58f75b7729b"
+    },
+    "flutter-change-notifier": {
+      "source": "evanca/flutter-ai-rules",
+      "sourceType": "github",
+      "skillPath": "skills/flutter-change-notifier/SKILL.md",
+      "computedHash": "21665136982ffcb74d397d9e84d8ae12a9e5d6a0c1d4e72062642b874f2a69bc"
+    },
+    "flutter-fix-layout-issues": {
+      "source": "flutter/agent-plugins",
+      "sourceType": "github",
+      "skillPath": "skills/flutter-fix-layout-issues/SKILL.md",
+      "computedHash": "b2f9789451224e6df8d1d7ac63854c2f1beb30fa35d13ea06fbae9ba2b1b0a7f"
+    },
+    "flutter-implement-json-serialization": {
+      "source": "flutter/agent-plugins",
+      "sourceType": "github",
+      "skillPath": "skills/flutter-implement-json-serialization/SKILL.md",
+      "computedHash": "c2cf46854472a452dafa11f862f2bca3d9fe7286a5bb45d85b1efbcebc74b74e"
+    },
+    "flutter-networking": {
+      "source": "madteacher/mad-agents-skills",
+      "sourceType": "github",
+      "skillPath": "flutter-networking/SKILL.md",
+      "computedHash": "40d462c39853159be7a4c9ecda1497833cf2ab6d2def0d44b08eb8216393bfd8"
+    },
+    "flutter-use-http-package": {
+      "source": "flutter/agent-plugins",
+      "sourceType": "github",
+      "skillPath": "skills/flutter-use-http-package/SKILL.md",
+      "computedHash": "bd169b5cee731751f3b32f43c94cfe9495fc8e6c3eb621b785c69e38b77d0e19"
+    },
+    "material-theming": {
+      "source": "verygoodopensource/vgv-ai-flutter-plugin",
+      "sourceType": "github",
+      "skillPath": "skills/material-theming/SKILL.md",
+      "computedHash": "49c244f266908a682ee67a55bab8704411906e21b89b804d665fe4c121b4301a"
+    }
+  }
+}

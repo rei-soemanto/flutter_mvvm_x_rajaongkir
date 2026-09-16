@@ -1,0 +1,28 @@
+# Static analysis configuration.
+#
+# Base rule set plus the strict language modes recommended by the
+# dart-run-static-analysis skill. Run `dart analyze` and `dart fix --apply`.
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    - web/**
+    - windows/**
+    - macos/**
+    - linux/**
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  errors:
+    todo: ignore
+
+linter:
+  rules:
+    always_use_package_imports: true
+    avoid_print: true
+    prefer_single_quotes: true
+    unawaited_futures: true
