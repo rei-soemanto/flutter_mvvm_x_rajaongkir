@@ -12,6 +12,8 @@
 .swiftpm/
 migrate_working_dir/
 .claude/
+docs/
+tool/
 CLAUDE.md
 
 # IntelliJ related
@@ -50,4 +52,4 @@ app.*.map.json
 .widget_preview/
 
 # RajaOngkir API key, created from config/env.example.json
-config/env.json
+config/

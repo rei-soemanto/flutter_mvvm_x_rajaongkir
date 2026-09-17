@@ -15,6 +15,7 @@ const List<String> scanned = [
   'test',
   'tool',
   'config',
+  'docs',
   '.vscode',
   'CLAUDE.md',
   'README.md',
