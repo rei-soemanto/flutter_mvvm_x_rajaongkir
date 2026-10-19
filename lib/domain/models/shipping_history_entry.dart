@@ -60,11 +60,19 @@ sealed class ShippingHistoryEntry {
   List<ShippingCost> get results;
 
   /// The cheapest service, or null when the API returned nothing.
+  ///
+  /// This loops instead of calling `reduce`. A subtype's real list is a
+  /// `List<DomesticShippingCost>` or `List<InternationalShippingCost>`, and a
+  /// `(ShippingCost, ShippingCost) => ShippingCost` callback fails the runtime
+  /// type check of a covariant list.
   ShippingCost? get cheapest {
-    if (results.isEmpty) {
-      return null;
+    ShippingCost? best;
+    for (final result in results) {
+      if (best == null || result.cost < best.cost) {
+        best = result;
+      }
     }
-    return results.reduce((a, b) => a.cost <= b.cost ? a : b);
+    return best;
   }
 
   /// Serializes this entry for device storage.
